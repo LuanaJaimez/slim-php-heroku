@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "dec39c14-8e92-4087-b98a-896a768567eb",
+		"name": "TP-Comanda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:666/mesas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Carla",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Lopez",
+							"type": "text"
+						},
+						{
+							"key": "mail",
+							"value": "lopezcarla@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "122352",
+							"type": "text"
+						},
+						{
+							"key": "puesto",
+							"value": "Cocinero",
+							"type": "text"
+						},
+						{
+							"key": "estado",
+							"value": "Disponible",
+							"type": "text"
+						},
+						{
+							"key": "fechaBaja",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:666/mesas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "666",
+					"path": [
+						"mesas"
+					]
+				},
+				"description": "Error"
+			},
+			"response": []
+		}
+	]
+}
